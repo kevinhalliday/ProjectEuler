@@ -4,7 +4,7 @@ the numbers from 1 to 20?
 '''
 
 from functools import reduce
-from fractions import gcd
+from math import gcd
 
 def lcm(a,b):
     ''' Returns least common multiple of a and b '''
